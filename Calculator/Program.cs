@@ -1,5 +1,5 @@
 ﻿using System.Text.RegularExpressions;
-using Calculator;
+using CalculatorLibrary;
 
 partial class Program
 {
@@ -11,6 +11,7 @@ partial class Program
 
         while (!endApp)
         {
+            var calculator = new Calculator();
             var numInput1 = "";
             var numInput2 = "";
             double result = 0;
@@ -52,7 +53,7 @@ partial class Program
             {
                 try
                 {
-                    result = Calc.DoOperation(cleanNum1, cleanNum2, op);
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
                     if (double.IsNaN(result))
                     {
                         Console.WriteLine("This operation will result in a mathematical error.\n");
@@ -71,9 +72,10 @@ partial class Program
             if (Console.ReadLine() == "n") endApp = true;
 
             Console.WriteLine("\n"); 
+            
+            calculator.Finish();
+            return;
         }
-
-        return;
     }
 
     [GeneratedRegex("[a|s|m|d]")]

@@ -12,3 +12,9 @@ C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\refint\Calcu
 C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.pdb
 C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\beqap\RiderProjects\Calculator\Calculator\bin\Debug\net8.0\CalculatorLibrary.dll
+C:\Users\beqap\RiderProjects\Calculator\Calculator\bin\Debug\net8.0\CalculatorLibrary.pdb
+C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.csproj.AssemblyReference.cache
+C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\beqap\RiderProjects\Calculator\Calculator\obj\Debug\net8.0\Calculator.csproj.CopyComplete
+C:\Users\beqap\RiderProjects\Calculator\Calculator\bin\Debug\net8.0\Newtonsoft.Json.dll
